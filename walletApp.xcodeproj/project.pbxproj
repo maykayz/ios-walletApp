@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690044F7230EC8910041DD2D /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690044F6230EC8910041DD2D /* Wallet.swift */; };
 		69510A24230D8302006DC8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69510A23230D8302006DC8E0 /* AppDelegate.swift */; };
 		69510A26230D8302006DC8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69510A25230D8302006DC8E0 /* ViewController.swift */; };
 		69510A29230D8302006DC8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69510A27230D8302006DC8E0 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		69510A2E230D8303006DC8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69510A2C230D8303006DC8E0 /* LaunchScreen.storyboard */; };
 		69510A39230D8303006DC8E0 /* walletAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69510A38230D8303006DC8E0 /* walletAppTests.swift */; };
 		69510A44230D8303006DC8E0 /* walletAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69510A43230D8303006DC8E0 /* walletAppUITests.swift */; };
+		69510A52230D88C5006DC8E0 /* walletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69510A51230D88C5006DC8E0 /* walletTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690044F6230EC8910041DD2D /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		69510A20230D8302006DC8E0 /* walletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69510A23230D8302006DC8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69510A25230D8302006DC8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		69510A3F230D8303006DC8E0 /* walletAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69510A43230D8303006DC8E0 /* walletAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletAppUITests.swift; sourceTree = "<group>"; };
 		69510A45230D8303006DC8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69510A51230D88C5006DC8E0 /* walletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				69510A2A230D8303006DC8E0 /* Assets.xcassets */,
 				69510A2C230D8303006DC8E0 /* LaunchScreen.storyboard */,
 				69510A2F230D8303006DC8E0 /* Info.plist */,
+				69510A51230D88C5006DC8E0 /* walletTableViewCell.swift */,
+				690044F6230EC8910041DD2D /* Wallet.swift */,
 			);
 			path = walletApp;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690044F7230EC8910041DD2D /* Wallet.swift in Sources */,
 				69510A26230D8302006DC8E0 /* ViewController.swift in Sources */,
 				69510A24230D8302006DC8E0 /* AppDelegate.swift in Sources */,
+				69510A52230D88C5006DC8E0 /* walletTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
